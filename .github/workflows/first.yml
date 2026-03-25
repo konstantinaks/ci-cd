@@ -35,9 +35,6 @@ jobs:
           echo "Downloading simple requirements..."
           pip install --upgrade pip
           echo "Done!"
-      
-      - name: Install dependencies
-        run: npm install
         
       - name: Create project build
         run: npm run build
